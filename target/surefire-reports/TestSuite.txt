@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 4, Errors: 0, Skipped: 3, Time elapsed: 8.317 s <<< FAILURE! - in TestSuite
+verifYToastMessage(com.script.ToastMessage)  Time elapsed: 0.701 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.script.ToastMessage.verifYToastMessage(ToastMessage.java:25)
+
+teardown(com.script.ToastMessage)  Time elapsed: 0.704 s  <<< FAILURE!
+java.lang.NullPointerException
+
+handleRadioButton(com.script.FilterTest)  Time elapsed: 5.03 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.script.FilterTest.handleRadioButton(FilterTest.java:44)
+
+teardown(com.script.FilterTest)  Time elapsed: 5.032 s  <<< FAILURE!
+java.lang.NullPointerException
+

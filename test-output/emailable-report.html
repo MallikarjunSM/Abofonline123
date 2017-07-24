@@ -1,0 +1,91 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><title>TestNG Report</title><style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}</style></head><body><table><tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr><tr><th colspan="7">Somke</th></tr><tr><td><a href="#t0">Sanity2</a></td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">26,559</td><td></td><td></td></tr><tr class="stripe"><td><a href="#t1">Sanity1</a></td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">26,912</td><td></td><td></td></tr><tr><th>Total</th><th class="num">0</th><th class="num">0</th><th class="num attn">2</th><th class="num">53,471</th><th colspan="2"></th></tr></table><table><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Somke</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Sanity2 &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">com.script.FilterTest</td><td><a href="#m0">teardown</a></td><td rowspan="1">1500710947753</td><td rowspan="1">0</td></tr><tr><th colspan="4">Sanity2 &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.script.FilterTest</td><td><a href="#m1">handleRadioButton</a></td><td rowspan="1">1500710937280</td><td rowspan="1">10445</td></tr></tbody><tbody id="t1"><tr><th colspan="4">Sanity1 &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.script.ToastMessage</td><td><a href="#m2">verifYToastMessage</a></td><td rowspan="1">1500710936103</td><td rowspan="1">9127</td></tr></tbody></table><h2>Sanity2</h2><h3 id="m0">com.script.FilterTest#teardown</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.remote.SessionNotFoundException: 
+Command duration or timeout: 8 milliseconds
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;DESKTOP-UM6LR8M&apos;, ip: &apos;172.20.10.4&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_131&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{app=D:\newdocument\Abof\ApkFile\abof_com.abof.android.apk, appPackage=com.abof.android, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=G5AXB727E236P4Z, platform=LINUX, appActivity=com.abof.android.landingpage.view.LandingPageView, desired={app=D:\newdocument\Abof\ApkFile\abof_com.abof.android.apk, appPackage=com.abof.android, appActivity=com.abof.android.landingpage.view.LandingPageView, platformVersion=6.0.1, automationName=Appium, platformName=Android, udid=G5AXB727E236P4Z, deviceName=G5AXB727E236P4Z}, platformVersion=6.0.1, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, browserName=Android, takesScreenshot=true, javascriptEnabled=true, platformName=Android, udid=G5AXB727E236P4Z}]
+Session ID: 3ca61058-7f94-433f-ae01-ad5b9837682d
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:40)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:235)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:526)
+	at com.libarary.BaseClass.teardown(BaseClass.java:82)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 22 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m1">com.script.FilterTest#handleRadioButton</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">STEP1<br/>STEP3</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.remote.SessionNotFoundException: 
+Command duration or timeout: 24 milliseconds
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;DESKTOP-UM6LR8M&apos;, ip: &apos;172.20.10.4&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_131&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{app=D:\newdocument\Abof\ApkFile\abof_com.abof.android.apk, appPackage=com.abof.android, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=G5AXB727E236P4Z, platform=LINUX, appActivity=com.abof.android.landingpage.view.LandingPageView, desired={app=D:\newdocument\Abof\ApkFile\abof_com.abof.android.apk, appPackage=com.abof.android, appActivity=com.abof.android.landingpage.view.LandingPageView, platformVersion=6.0.1, automationName=Appium, platformName=Android, udid=G5AXB727E236P4Z, deviceName=G5AXB727E236P4Z}, platformVersion=6.0.1, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, browserName=Android, takesScreenshot=true, javascriptEnabled=true, platformName=Android, udid=G5AXB727E236P4Z}]
+Session ID: 3ca61058-7f94-433f-ae01-ad5b9837682d
+*** Element info: {Using=name, value=MEN}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:40)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:56)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:461)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByName(DefaultGenericMobileDriver.java:104)
+	at io.appium.java_client.AppiumDriver.findElementByName(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByName(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByName.findElement(By.java:303)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:52)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy8.click(Unknown Source)
+	at com.script.FilterTest.handleRadioButton(FilterTest.java:46)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 20 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h2>Sanity1</h2><h3 id="m2">com.script.ToastMessage#verifYToastMessage</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">STEP2</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 403 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;DESKTOP-UM6LR8M&apos;, ip: &apos;172.20.10.4&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_131&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{app=D:\newdocument\Abof\ApkFile\abof_com.abof.android.apk, appPackage=com.abof.android, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=ba0bfc7a, platform=LINUX, appActivity=com.abof.android.landingpage.view.LandingPageView, desired={app=D:\newdocument\Abof\ApkFile\abof_com.abof.android.apk, appPackage=com.abof.android, appActivity=com.abof.android.landingpage.view.LandingPageView, platformVersion=5.1.1, automationName=Appium, platformName=Android, udid=ba0bfc7a, deviceName=ba0bfc7a}, platformVersion=5.1.1, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, browserName=Android, takesScreenshot=true, javascriptEnabled=true, platformName=Android, udid=ba0bfc7a}]
+Session ID: 0ce872ab-66d1-4d9a-b78b-5aa0ca01e770
+*** Element info: {Using=id, value=com.abof.android:id/login_password_edt_edt}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:40)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:56)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:413)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:64)
+	at io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementById(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:52)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy8.sendKeys(Unknown Source)
+	at com.script.ToastMessage.verifYToastMessage(ToastMessage.java:27)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 20 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p></body></html>
